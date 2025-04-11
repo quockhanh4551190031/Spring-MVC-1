@@ -23,6 +23,12 @@ if (user == null)
 		<div class="container">
 			<a class="navbar-brand" href="#">🏠 Trang chủ</a>
 		</div>
+		
+		<!-- Search Form -->
+        <form class="d-flex ms-auto me-3" action="search" method="get">
+            <input class="form-control me-2" type="search" name="query" placeholder="Tìm kiếm người dùng..." aria-label="Search">
+            <button class="btn btn-light" type="submit">Tìm</button>
+        </form>
 
 		<div class="navbar-nav ms-auto d-flex align-items-center">
 			<a href="profile"> <span class="text-white me-3">👤 Hồ sơ

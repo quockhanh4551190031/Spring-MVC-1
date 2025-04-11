@@ -1,5 +1,7 @@
 package com.abc.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,4 +23,8 @@ public class UserServiceImpl implements UserService {
     public boolean registerUser(User user) {
         return userDAO.registerUser(user);
     }
+    
+//    public List<User> searchUsersByFollowStats(int minFollowing, int minFollower) {
+//        return userDAO.findUsersByFollowCriteria(minFollowing, minFollower);
+//    }
 }
