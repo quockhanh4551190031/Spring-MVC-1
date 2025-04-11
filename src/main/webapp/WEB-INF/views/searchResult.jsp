@@ -9,7 +9,7 @@
     if (results != null && !results.isEmpty()) {
         for (User u : results) {
 %>
-            <p><%= u.getUsername() %></p>
+            <p>Có người dùng tên "<%= u.getUsername() %>"</p>
 <%
         }
     } else {
